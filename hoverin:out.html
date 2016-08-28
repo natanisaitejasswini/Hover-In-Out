@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hover In/Out Assignment</title>
+	<link rel="stylesheet" type="text/css" href="hover.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// Program Starts
+			// For Image1
+			$('#image1').hover(function(){
+				$(this).attr('src',"hoverimages/hover2.jpg");
+			}, 
+				function(){
+        			$(this).attr('src',"hoverimages/hover1.jpg");
+    		});
+    		// For Image2
+    		$('#image2').hover(function(){
+				$(this).attr('src',"hoverimages/hover4.jpg");
+			}, 
+				function(){
+        			$(this).attr('src',"hoverimages/hover3.jpg");
+    		});
+    		// For Image3
+    		$('#image3').hover(function(){
+				$(this).attr('src',"hoverimages/hover6.jpg");
+			}, 
+				function(){
+        			$(this).attr('src',"hoverimages/hover5.jpg");
+    		});
+    		// For Image4
+    		$('#image4').hover(function(){
+				$(this).attr('src',"hoverimages/hover8.jpg");
+			}, 
+				function(){
+        			$(this).attr('src',"hoverimages/hover7.jpg");
+    		});
+
+		})
+	</script>
+	</head>
+	<body>
+		<h4>Hover In/Out</h4>
+		<div id="pictures">
+			<img src="hoverimages/hover1.jpg" id="image1" alt="hover1">
+			<img src="hoverimages/hover3.jpg" id="image2" alt="hover3">
+			<img src="hoverimages/hover5.jpg" id="image3" alt="hover5">
+			<img src="hoverimages/hover7.jpg" id="image4" alt="hover7">
+		</div>
+	</body>
+	</html>

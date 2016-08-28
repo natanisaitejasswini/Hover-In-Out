@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#pictures{
+display: inline-block;
+width: 505px;
+margin-left: 100px;
+margin-top: 50px;
+}
+img{
+width: 100px;
+height: 122px;
+border: 1px solid black;
+margin-right: 20px;
+margin-bottom: 10px;
+}
+h4{
+margin-top: 90px;
+margin-left: 100px;
+font-family: serif;
+}
